@@ -212,7 +212,18 @@ h2 {
     align-content: space-around;
 }
 
+
+/* .optText {
+
+}
+
+.optButton {
+
+} */
+
 .digDes {
+    display: flex;
+    flex-flow: column;
     width: 48%;
     height: 33%;
     border: 1px solid black;
@@ -363,6 +374,11 @@ h2 {
 .funList {
     display: flex;
     flex-direction: column;
+    padding-right: 50px;
+}
+
+.funList2 {
+    line-height: 200%;
 }
 
 .funPic {
